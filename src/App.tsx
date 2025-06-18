@@ -6,8 +6,12 @@ import Reducer from "./pages/Reducer";
 import UseCallBack from "./pages/UseCallBack";
 import UseMemo from "./pages/UseMemo";
 import UseCustomHook from "./pages/UseCustomHook";
+import useAutoLogout from "./components/UseCustomHooks.tsx/UseAutoLogout";
 
 function App() {
+  // auto logout after no user moment
+  // useAutoLogout(() => alert("You are logged out"), 2000);
+
   return (
     <>
       <BrowserRouter>
