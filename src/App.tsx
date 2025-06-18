@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Navbar from "./components/navbar";
 import Reducer from "./pages/Reducer";
 import UseCallBack from "./pages/UseCallBack";
+import UseMemo from "./pages/UseMemo";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/reducer" element={<Reducer />} />
           <Route path="/usecallback" element={<UseCallBack />} />
+          <Route path="/usememo" element={<UseMemo />} />
         </Routes>
       </BrowserRouter>
     </>

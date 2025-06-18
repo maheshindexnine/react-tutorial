@@ -16,6 +16,9 @@ const navbar: React.FC = () => {
       <li className="text-2xl">
         <Link to="/usecallback">useCallBack</Link>
       </li>
+      <li className="text-2xl">
+        <Link to="/usememo">useMemo</Link>
+      </li>
     </ul>
   );
 };
