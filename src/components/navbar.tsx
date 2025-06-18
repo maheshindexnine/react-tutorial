@@ -19,6 +19,9 @@ const navbar: React.FC = () => {
       <li className="text-2xl">
         <Link to="/usememo">useMemo</Link>
       </li>
+      <li className="text-2xl">
+        <Link to="/usecustomhook">useCustomHook</Link>
+      </li>
     </ul>
   );
 };

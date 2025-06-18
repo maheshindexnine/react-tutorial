@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Reducer from "./pages/Reducer";
 import UseCallBack from "./pages/UseCallBack";
 import UseMemo from "./pages/UseMemo";
+import UseCustomHook from "./pages/UseCustomHook";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/reducer" element={<Reducer />} />
           <Route path="/usecallback" element={<UseCallBack />} />
           <Route path="/usememo" element={<UseMemo />} />
+          <Route path="/usecustomhook" element={<UseCustomHook />} />
         </Routes>
       </BrowserRouter>
     </>
