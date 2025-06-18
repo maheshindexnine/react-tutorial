@@ -10,8 +10,8 @@ const UseCustomHook: React.FC = () => {
 
   return (
     <>
-      <button onClick={updateData}>
-        Update {loading ? "Loading..." : "Done"}
+      <button className="text-blue-500 hover:bg-amber-300 border-2 p-2 rounded-2xl" onClick={updateData}>
+        Refresh Data {loading ? "Loading..." : "Done"}
       </button>
       <h1 className="text-2xl font-bold">UseCustomHook</h1>
       <p>Used UseCustomHook to fetch users from the API</p>
