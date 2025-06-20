@@ -7,6 +7,7 @@ import UseCallBack from "./pages/UseCallBack";
 import UseMemo from "./pages/UseMemo";
 import UseCustomHook from "./pages/UseCustomHook";
 import useAutoLogout from "./components/UseCustomHooks.tsx/UseAutoLogout";
+import Images from "./pages/images";
 
 function App() {
   // auto logout after no user moment
@@ -23,6 +24,7 @@ function App() {
           <Route path="/usecallback" element={<UseCallBack />} />
           <Route path="/usememo" element={<UseMemo />} />
           <Route path="/usecustomhook" element={<UseCustomHook />} />
+          <Route path="/images" element={<Images />} />
         </Routes>
       </BrowserRouter>
     </>
